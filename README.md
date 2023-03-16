@@ -28,6 +28,33 @@ The main idea of save_artifacts project is to save artifacts into /home/ubuntu/a
 
 ![image](https://user-images.githubusercontent.com/113097621/225579869-074accfa-3c75-4ef3-b1d3-1402d51d1bbf.png)
 
+![image](https://user-images.githubusercontent.com/113097621/225586996-854c4004-14da-40aa-8c83-f392b1d13b5f.png)
+
+![image](https://user-images.githubusercontent.com/113097621/225587074-3990864c-7be4-448f-8d6e-62abce670dd7.png)
+
+Lets Check our build
+![image](https://user-images.githubusercontent.com/113097621/225608903-66b12195-1ec6-42a5-9959-5a64a2162096.png)
+
+Refactor Ansible code by importing other playbooks into site.yml
+
+Create a new file names site.yml Under Playbooks and Create a new folder in root of the repository and name it static-assignments. The static-assignments folder is where all other children playbooks will be stored. 
+
+![image](https://user-images.githubusercontent.com/113097621/225613990-08a7f899-3895-4cf6-9a6e-44721b58d02f.png)
+
+Move common.yml file into the newly created static-assignments folder.
+
+![image](https://user-images.githubusercontent.com/113097621/225615148-ddc2ff05-dfb9-44a5-8b10-f9c0ceeec728.png)
+
+Inside site.yml file, import common.yml playbook
+
+![image](https://user-images.githubusercontent.com/113097621/225616634-dc764058-4a17-452e-a6a2-e0d4927701d2.png)
 
 
-![image](https://user-images.githubusercontent.com/113097621/225571449-46a2ceb9-c372-43b8-912d-5c699748fc61.png)
+
+
+
+
+
+push pull
+![image](https://user-images.githubusercontent.com/113097621/225608063-73e67bd2-386d-4e9b-aa24-e0731fcd39fe.png)
+
