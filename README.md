@@ -49,6 +49,22 @@ Inside site.yml file, import common.yml playbook
 
 ![image](https://user-images.githubusercontent.com/113097621/225616634-dc764058-4a17-452e-a6a2-e0d4927701d2.png)
 
+My Ansible folder structure should looks like this
+![image](https://user-images.githubusercontent.com/113097621/225618639-5eb71a7a-29c4-464a-9358-fb72b591dc95.png)
+
+
+    Run ansible-playbook command against the dev environment
+Since you need to apply some tasks to your dev servers and wireshark is already installed – you can go ahead and create another playbook under static-assignments and name it common-del.yml. In this playbook, configure deletion of wireshark utility.
+
+![image](https://user-images.githubusercontent.com/113097621/225624665-8f66febf-30f1-42c5-88f9-871f9658a406.png)
+
+update site.yml with - import_playbook: ../static-assignments/common-del.yml instead of common.yml and run it against dev servers:
+
+![image](https://user-images.githubusercontent.com/113097621/225626072-c1f753cc-ab61-4487-baf1-9995be25ac92.png)
+
+
+
+
 
 
 
