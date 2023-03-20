@@ -63,6 +63,37 @@ update site.yml with - import_playbook: ../static-assignments/common-del.yml ins
 ![image](https://user-images.githubusercontent.com/113097621/225626072-c1f753cc-ab61-4487-baf1-9995be25ac92.png)
 
 
+![image](https://user-images.githubusercontent.com/113097621/226338362-59fe11c0-2af9-4627-ac79-09858b791e66.png)
+
+
+![image](https://user-images.githubusercontent.com/113097621/226335009-356d7c3c-fa95-4137-91d2-75c9b1fadb61.png)
+
+
+To check if wireshark is deleted on all the servers by running wireshark --version
+
+![image](https://user-images.githubusercontent.com/113097621/226336772-58fbdc08-0e5b-49db-8371-d241f38f71a5.png)
+
+
+Configure UAT Webservers with a role ‘Webserver’
+
+We will create a new branch called Refactor where we will working
+
+![image](https://user-images.githubusercontent.com/113097621/226339533-0deff813-65bb-42be-ae38-5010bc00d983.png)
+
+Spin two UAT Servers 
+![image](https://user-images.githubusercontent.com/113097621/226354675-83038fc1-8439-4eb1-af5b-94d1eccbb4c2.png)
+
+
+![image](https://user-images.githubusercontent.com/113097621/226360041-f75a9862-6b63-437d-8e55-a96f6059dd99.png)
+
+
+
+
+
+
+
+
+
 
 
 
