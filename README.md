@@ -87,8 +87,19 @@ The entire folder structure should look like below, but if you create it manuall
 
 ![image](https://user-images.githubusercontent.com/113097621/226360706-da759973-4e80-4331-a544-e11f45c2772d.png)
 
+After removing unnecessary directories and files, the roles structure should look like this
+![image](https://user-images.githubusercontent.com/113097621/226361452-25926052-e099-4cc9-b33d-3f185003e2c1.png)
+
+
 ![image](https://user-images.githubusercontent.com/113097621/226360041-f75a9862-6b63-437d-8e55-a96f6059dd99.png)
 
+Update your inventory ansible-config-mgt/inventory/uat.yml file with IP addresses of your 2 UAT Web servers
+
+![image](https://user-images.githubusercontent.com/113097621/226363782-433ad3d1-f212-4312-ad8b-b6ab25feeb32.png)
+
+
+Do Git Status, Git add ., Git commit -m and Git Push to my repo
+![image](https://user-images.githubusercontent.com/113097621/226365048-5009f86b-52a2-44b5-946f-58afd1d6c319.png)
 
 
 
@@ -107,6 +118,9 @@ The entire folder structure should look like below, but if you create it manuall
 
 
 
-push pull
-![image](https://user-images.githubusercontent.com/113097621/225608063-73e67bd2-386d-4e9b-aa24-e0731fcd39fe.png)
+
+
+
+
+
 
