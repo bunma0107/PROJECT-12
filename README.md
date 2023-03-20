@@ -114,6 +114,15 @@ Within the static-assignments folder, create a new assignment for uat-webservers
 
 ![image](https://user-images.githubusercontent.com/113097621/226379239-411d8a01-24d2-4d31-a610-7a74aa49ee17.png)
 
+So, we should have this in site.yml
+![image](https://user-images.githubusercontent.com/113097621/226380826-f27ef34d-09ce-4d2c-9ced-4a7cb22ba477.png)
+
+ Commit & Test
+![image](https://user-images.githubusercontent.com/113097621/226382229-d272fadf-932c-46dc-8c9d-04530bee33b7.png)
+
+
+
+
 
 
 
