@@ -101,12 +101,24 @@ Update your inventory ansible-config-mgt/inventory/uat.yml file with IP addresse
 Do Git Status, Git add ., Git commit -m and Git Push to my repo
 ![image](https://user-images.githubusercontent.com/113097621/226365048-5009f86b-52a2-44b5-946f-58afd1d6c319.png)
 
+In /etc/ansible/ansible.cfg file uncomment roles_path string and provide a full path to your roles directory roles_path    = /home/ubuntu/ansible-config-mgt/roles, so Ansible could know where to find configured roles.
+
+![image](https://user-images.githubusercontent.com/113097621/226375330-2c6d384b-8ae7-4a9c-a0af-73602a4ed787.png)
+
+It is time to start adding some logic to the webserver role. Go into tasks directory, and within the main.yml file, start writing configuration tasks
+
+![image](https://user-images.githubusercontent.com/113097621/226377542-83b6f524-6d05-4a75-ac55-2ba1f4c7dd85.png)
+
+Reference Webserver role
+Within the static-assignments folder, create a new assignment for uat-webservers uat-webservers.yml. This is where you will reference the role.
+
+![image](https://user-images.githubusercontent.com/113097621/226379239-411d8a01-24d2-4d31-a610-7a74aa49ee17.png)
 
 
 
 
 
-
+ 
 
 
 
