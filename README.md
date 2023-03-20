@@ -83,8 +83,13 @@ We will create a new branch called Refactor where we will working
 Spin two UAT Servers 
 ![image](https://user-images.githubusercontent.com/113097621/226354675-83038fc1-8439-4eb1-af5b-94d1eccbb4c2.png)
 
+The entire folder structure should look like below, but if you create it manually – you can skip creating tests, files, and vars or remove them if you used ansible-galaxy
+
+![image](https://user-images.githubusercontent.com/113097621/226360706-da759973-4e80-4331-a544-e11f45c2772d.png)
 
 ![image](https://user-images.githubusercontent.com/113097621/226360041-f75a9862-6b63-437d-8e55-a96f6059dd99.png)
+
+
 
 
 
