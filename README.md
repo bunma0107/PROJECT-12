@@ -120,6 +120,13 @@ So, we should have this in site.yml
  Commit & Test
 ![image](https://user-images.githubusercontent.com/113097621/226382229-d272fadf-932c-46dc-8c9d-04530bee33b7.png)
 
+![image](https://user-images.githubusercontent.com/113097621/226984202-29101f3e-5dbc-4d2f-a3d8-063348d7d725.png)
+
+
+![image](https://user-images.githubusercontent.com/113097621/226984459-f47ac08a-01b4-4318-a9e4-7d6b95aaa08f.png)
+
+
+![image](https://user-images.githubusercontent.com/113097621/226990433-faa46c72-4f0f-4182-9c1c-12695a9b36ca.png)
 
 
 
