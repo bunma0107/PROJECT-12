@@ -131,6 +131,12 @@ UAT Web servers configured can now be accessed from web browser:
 
 http://<Web1-UAT-Server-Public-IP-or-Public-DNS-Name>/index.php
 ![image](https://user-images.githubusercontent.com/113097621/226990433-faa46c72-4f0f-4182-9c1c-12695a9b36ca.png)
+    
+
+Our Ansible architecture now looks like this:
+    
+![image](https://user-images.githubusercontent.com/113097621/226992387-f47d65c2-0d3d-42c6-9e34-dacd4a470ada.png)
+
 
 
 
